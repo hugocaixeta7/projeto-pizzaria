@@ -1,12 +1,12 @@
 # projeto-pizzaria
 
-🍕 Alek de Carbono — Pizzaria & Club
-Um site fictício desenvolvido para praticar HTML e CSS com design e identidade únicos, criado do zero.
+<h1>🍕 Alek de Carbono — Pizzaria & Club</h1>
+<p>Um site fictício desenvolvido para praticar HTML e CSS com design e identidade únicos, criado do zero.</p>
 
-📌 Sobre o Projeto
-Este projeto foi desenvolvido com o objetivo de praticar HTML e CSS puros, focando especialmente no uso de Flexbox para criar um layout moderno, funcional e responsivo. O site representa a identidade fictícia da Alek de Carbono (Pizzaria & Club) — uma pizzaria contemporânea de inspiração italiana, com proposta visual ousada e atmosfera urbana.
+<h1>📌 Sobre o Projeto</h1>
+<p>Este projeto foi desenvolvido com o objetivo de praticar HTML e CSS puros, focando especialmente no uso de Flexbox para criar um layout moderno, funcional e responsivo. O site representa a identidade fictícia da Alek de Carbono (Pizzaria & Club) — uma pizzaria contemporânea de inspiração italiana, com proposta visual ousada e atmosfera urbana.</p>
 
-Todo o visual foi criado do zero, apenas com base em inspirações visuais, experimentações e decisões de design próprias.
+<p>Todo o visual foi criado do zero, apenas com base em inspirações visuais, experimentações e decisões de design próprias.</p>
 
 🌱 Versão 2 
 Este site foi desenvolvido com o objetivo de praticar tópicos específicos nos quais eu estava encontrando dificuldades. Algumas funcionalidades e ajustes foram deixados para uma futura versão, na qual pretendo aplicar todos os conceitos de forma integrada.
