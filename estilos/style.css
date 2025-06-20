@@ -104,12 +104,6 @@ main{
     height: 2000px;
 }
 
-
-footer{
-    background-color: rgb(54, 54, 54);
-    color: white;
-}
-
 section.hero{
     background-image: url(../imagens/ivan-torres-MQUqbmszGGM-unsplash.jpg);
     background-size: cover;
@@ -200,8 +194,12 @@ section.cardapio{
    background-size: cover;
    flex: auto;
    box-shadow: 2px 2px 5px var(--preto);
+   width: 300px;
 }
 
+div.pizza1:hover{
+    overlay: black;
+}
 .pizza2{
     background-image: url(../imagens/pizzamarguerita.jpg);
     background-repeat: no-repeat;
@@ -209,6 +207,7 @@ section.cardapio{
     background-size: cover;
     flex: auto;
     box-shadow: 2px 2px 5px var(--preto);
+    width: 300px;
 }
 
 .pizza3{
@@ -218,14 +217,41 @@ section.cardapio{
     background-size: cover;
     flex: auto;
     box-shadow: 2px 2px 5px var(--preto);
+    width: 300px;
 }
 
 article{
     color: white;
     background-color: rgba(255, 255, 255, 0.055);
-    text-align: center;
     font-size: 20px;
     font-family: var(--textos);
 }
 
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--teste2);
+    font-size: 18px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: color 0.5s;
+}
+
+footer a:hover{
+    color: rgb(134, 134, 134);
+}
 
