@@ -175,6 +175,14 @@ div.item2 a:hover{
     color: var(--preto);
 }
 
+div.titulo{
+    background-color: rgb(54, 54, 54);
+    color: var(--branco);
+    text-align: center;
+    padding: 50px;
+    font-family: var(--teste2)
+}
+
 section.cardapio{
     height: 800px;
     background-color: rgb(54, 54, 54);
@@ -182,12 +190,14 @@ section.cardapio{
     flex-flow: row nowrap;
     justify-content: space-around;
     gap: 50px;
-    padding: 7em;
+    padding: 0px 7em 7em 7em;
 }
 
 .pizza1{
    background-image: url(../imagens/pizzacalabresa.jpg);
    background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
    flex: auto;
    box-shadow: 2px 2px 5px var(--preto);
 }
@@ -195,16 +205,17 @@ section.cardapio{
 .pizza2{
     background-image: url(../imagens/pizzamarguerita.jpg);
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: right center;
+    background-size: cover;
     flex: auto;
     box-shadow: 2px 2px 5px var(--preto);
-    border-radius: 10px;
 }
 
 .pizza3{
     background-image: url(../imagens/pizza4queijos.jpg);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center center;
+    background-size: cover;
     flex: auto;
     box-shadow: 2px 2px 5px var(--preto);
 }
