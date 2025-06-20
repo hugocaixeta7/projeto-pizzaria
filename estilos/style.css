@@ -101,7 +101,7 @@ header{
 
 main{
     background-color: lightcoral;
-    height: 2000px;
+    height: 3000px;
 }
 
 section.hero{
@@ -232,6 +232,29 @@ article{
 
 
 
+
+
+
+
+
+
+
+
+
+section.contato{
+    display: flex;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+div.icontato{
+    font-size: 2em;
+    font-family: var(--teste2);
+}
 
 
 
