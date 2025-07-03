@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="estilos/style.css" />
     <title>Pizzaria Fictícia</title>
   </head>
@@ -74,24 +83,73 @@
         <img src="imagens/pizzaria2.jpg" class="imagem2" alt="imagem 2" />
         <img src="imagens/pizzaria3.jpg" class="imagem3" alt="imagem 3 " />
       </section>
-
-      <section class="contato">
-        <div class="info">
-          <h1>Endereço:</h1>
-          <p>Via delle Ombre, 1085 – Bairro Montegrano, Júpiter – JT</p>
-          <h1>Telefone:</h1>
-          <p>(867) 4002-8008</p>
-          <h1>Horário:</h1>
-          <p>Quarta a Sabado 18h - 23h</p>
-          <p>Domingo a Segunda 18h - 00h</p>
-        </div>
-        <!-- [Ícones: Instagram WhatsApp Facebook] -->
-      </section>
     </main>
-
+    
     <footer>
-      © 2025 Pizzaria Fictícia | Feito por
-      <a href="https://github.com/hugocaixeta7" target="_blank">Hugo Caixeta</a>
+      <div id="footer_content">
+        <div id="footer_contacts">
+          <h1>Alek de Carbono</h1>
+          <p>Sua pizza dos sonhos </p>
+
+          <div id="footer_social_media">
+            <a href="#" class="footer_link" id="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" class="footer_link" id="facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#" class="footer_link" id="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <ul class="footer_list">
+          <li>
+            <h3>Endereço</h3>
+          </li>
+          <li>
+            <p>Rua: Via delle Ombre - 1085</p>
+          </li>
+          <li>
+            <p>Bairro: Montegrano</p>
+          </li>
+          <li>
+            <p>Planeta: Júpiter – JT</p>
+          </li>
+        </ul>
+
+        <ul class="footer_list">
+          <li>
+            <h3>Horários</h3>
+          </li>
+          <li>
+            <p>Quarta a Sabado 18h - 23h</p>
+          </li>
+          <li>
+            <p>Domingo a Segunda 18h - 00h</p>
+          </li>
+        </ul>
+        <div id="footer_subscribe">
+          <h3>Telefone</h3>
+          <p>(867) 4002-8008</p>
+          <p>Insira seu e-mail para receber notificações sobre nossas novidades</p>
+          
+          <div id="input_group">
+            <input type="email" id="email" />
+            <button>
+              <i class="fa-regular fa-envelope"></i>
+            </button>
+          </div>
+        </div>
+          
+      </div>
+
+      <div id="footer_copyright">
+         &#169 2025 Pizzaria Fictícia | Feito por <a href="https://github.com/hugocaixeta7" target="_blank">Hugo Caixeta</a>
+      </div>
     </footer>
   </body>
 </html>
