@@ -21,6 +21,8 @@
   box-sizing: border-box;
 }
 
+/* Header / Nav */
+
 header {
   background-color: var(--color-neutral-10);
   color: var(--branco);
@@ -33,7 +35,8 @@ header {
   padding: 1.5rem 6rem;
 }
 
-.logo h1, h2{
+.logo h1,
+h2 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -52,11 +55,11 @@ header {
   list-style: none;
 }
 
-.nav-item{
+.nav-item {
   margin: 0 15px;
 }
 
-.nav-link{
+.nav-link {
   text-decoration: none;
   color: var(--branco);
   font-size: 1.15rem;
@@ -67,7 +70,7 @@ header {
   color: rgb(134, 134, 134);
 }
 
-.botao-pedido button{
+.botao-pedido button {
   border: none;
   text-decoration: none;
   font-size: 23px;
@@ -79,7 +82,7 @@ header {
   text-shadow: none;
 }
 
-.botao-pedido button:hover{
+.botao-pedido button:hover {
   background-color: rgb(255, 255, 255);
 }
 
@@ -87,6 +90,18 @@ header {
   text-decoration: none;
   color: rgb(54, 54, 54);
 }
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+
+
+/* Hero Section */
 
 section.hero {
   background-image: url(../imagens/ivan-torres-MQUqbmszGGM-unsplash.jpg);
@@ -160,6 +175,10 @@ div.titulo {
   padding: 50px;
   font-family: var(--teste2);
 }
+
+
+
+/* Cardapio Section */
 
 section.cardapio {
   height: 800px;
@@ -250,6 +269,10 @@ div.pizza1:hover {
   font-family: var(--logo);
 }
 
+
+
+/* Section Sobre */
+
 .sobre {
   background-image: url(../imagens/pizzaria1.jpg);
   background-repeat: no-repeat;
@@ -313,33 +336,37 @@ div.pizza1:hover {
   transition: background-color 0.4s ease-in-out;
 }
 
-footer{
+
+
+/* Footer Section */
+
+footer {
   width: 100%;
   color: var(--color-neutral-40);
 }
 
-.footer_link{
+.footer_link {
   text-decoration: none;
 }
 
-#footer_content{
+#footer_content {
   background-color: var(--color-neutral-10);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem 3.5rem;
 }
 
-#footer_contacts h1{
+#footer_contacts h1 {
   margin-bottom: 0.75rem;
 }
 
-#footer_social_media{
+#footer_social_media {
   display: flex;
   gap: 2rem;
   margin-top: 1.5rem;
 }
 
-#footer_social_media .footer_link{
+#footer_social_media .footer_link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -350,61 +377,61 @@ footer{
   transition: all 0.4s;
 }
 
-#footer_social_media .footer_link i{
+#footer_social_media .footer_link i {
   font-size: 1.25rem;
 }
 
-#footer_social_media .footer_link:hover{
+#footer_social_media .footer_link:hover {
   opacity: 0.8;
 }
 
-#instagram{
+#instagram {
   background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 
-#facebook{
+#facebook {
   background-color: #4267b3;
 }
 
-#whatsapp{
+#whatsapp {
   background-color: #25d366;
 }
 
-.footer_list{
+.footer_list {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   list-style: none;
 }
 
-.footer_list p{
+.footer_list p {
   color: var(--color-neutral-30);
 }
 
-#footer_subscribe{
+#footer_subscribe {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-#footer_subscribe p{
+#footer_subscribe p {
   color: var(--color-neutral-30);
 }
 
-#input_group{
+#input_group {
   display: flex;
   align-items: center;
   background-color: var(--color-neutral-0);
   border-radius: 4px;
 }
 
-#input_group input{
+#input_group input {
   all: unset;
   padding: 0.75rem;
   width: 100%;
 }
 
-#input_group button{
+#input_group button {
   background-color: #7f37c9;
   border: none;
   color: var(--color-neutral-40);
@@ -416,11 +443,11 @@ footer{
   transition: all 0.4s;
 }
 
-#input_group button:hover{
+#input_group button:hover {
   opacity: 0.8;
 }
 
-#footer_copyright{
+#footer_copyright {
   display: flex;
   justify-content: center;
   background-color: var(--color-neutral-0);
@@ -430,30 +457,86 @@ footer{
   color: var(--color-neutral-30);
 }
 
-#footer_copyright a{
+#footer_copyright a {
   text-decoration: none;
   color: var(--color-neutral-30);
   margin-left: 4px;
 }
 
-@media screen and (max-width: 600px){
-  #footer_content{
+
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  #footer_content {
     grid-template-columns: repeat(1, 1fr);
     padding: 3rem 2rem;
   }
 
-  .imagem2, .imagem3{
+  .imagem2,
+  .imagem3 {
     display: none;
   }
 }
 
-@media screen and (max-width: 992px){
-  #footer_content{
+@media screen and (max-width: 992px) {
+  #footer_content {
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
   }
 
-  .imagem2, .imagem3{
+  .imagem2,
+  .imagem3 {
     display: none;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .botao-pedido {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .navitem {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .mobile-menu .botao-pedido {
+    display: block;
+    padding: 1rem 2rem;
+  }
+
+  .mobile-menu .botao-pedido button {
+    width: 100%;
+  }
+
+  .open {
+    display: block;
   }
 }
